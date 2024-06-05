@@ -1,0 +1,621 @@
+[
+  {
+    "goal": "Hold a Philosophy Debate Night at #location_0 at #time_0",
+    "FPG": "#performer wants to hold a Philosophy Debate Night at #location_0 at #time_0",
+    "Description": "The target is to have #target_num people attend the event at #location_0 at #time_0, the more people the better.",
+    "task_type": "Public Activity",
+    
+    "task": {
+      "target": [],
+      "target_num": 8,
+      "goal": [
+        {
+          "keyword": "Philosophy Debate Night",
+          "alter_kwd": ["Debate", "Debate Night"],
+          "start_time": "2023-02-14 19:00",
+          "duration_in_minutes": 180,
+          "location": "The Rose and Crown Pub",
+          "required_character": []
+        }
+      ]
+    },
+    "performer": "Adam Smith"
+  },
+  {
+    "goal": "Hold a DIY Home Repair Workshop at #location_0 at #time_0",
+    "FPG": "#performer wants to hold a DIY Home Repair Workshop at #location_0 at #time_0",
+    "Description": "The target is to have #target_num people attend the event at #location_0 at #time_0, the more people the better.",
+    "task_type": "Public Activity",
+    
+    "task": {
+      "target": [],
+      "target_num": 8,
+      "goal": [
+        {
+          "keyword": "DIY Home Repair Workshop",
+          "alter_kwd": ["Workshop", "DIY"],
+          "start_time": "2023-02-14 10:00",
+          "duration_in_minutes": 180,
+          "location": "Harvey Oak Supply Store",
+          "required_character": []
+        }
+      ]
+    },
+    "performer": "Carmen Ortiz"
+  },
+  {
+    "goal": "Hold a Jazz and Classical Fusion Concert at #location_0 at #time_0",
+    "FPG": "#performer wants to hold a Jazz and Classical Fusion Concert at #location_0 at #time_0",
+    "Description": "The target is to have #target_num people attend the event at #location_0 at #time_0, the more people the better.",
+    "task_type": "Public Activity",
+    
+    "task": {
+      "target": [],
+      "target_num": 8,
+      "goal": [
+        {
+          "keyword": "Jazz and Classical Fusion Concert",
+          "alter_kwd": ["Concert", "Jazz", "Jazz and Classical Fusion"],
+          "start_time": "2023-02-14 20:00",
+          "duration_in_minutes": 180,
+          "location": "Oak Hill College",
+          "required_character": []
+        }
+      ]
+    },
+    "shared_spatial_mem": {
+      "Oak Hill College": {
+        "hallway": [],
+        "library": [
+          "library sofa",
+          "library table",
+          "bookshelf"
+        ],
+        "classroom": [
+          "blackboard",
+          "classroom podium",
+          "classroom student seating"
+        ]
+      }
+    },
+    "performer": "Eddy Lin"
+  },
+  {
+    "goal": "Hold a Jazz and Stand-up Comedy Night at #location_0 at #time_0",
+    "FPG": "#performer wants to hold a Stand-up Comedy Night at #location_0 at #time_0",
+    "Description": "The target is to have #target_num people attend the event at #location_0 at #time_0, the more people the better.",
+    "task_type": "Public Activity",
+    
+    "task": {
+      "target": [],
+      "target_num": 8,
+      "goal": [
+        {
+          "keyword": "Stand-up Comedy Night",
+          "alter_kwd": ["Comedy", "Comedy Night"],
+          "start_time": "2023-02-14 20:00",
+          "duration_in_minutes": 180,
+          "location": "Oak Hill College",
+          "required_character": []
+        }
+      ]
+    },
+    "shared_spatial_mem": {
+      "Oak Hill College": {
+        "hallway": [],
+        "library": [
+          "library sofa",
+          "library table",
+          "bookshelf"
+        ],
+        "classroom": [
+          "blackboard",
+          "classroom podium",
+          "classroom student seating"
+        ]
+      }
+    },
+    "performer": "Francisco Lopez"
+  },
+  {
+    "goal": "Hold a Mathematics for Everyday Life Seminar at #location_0 at #time_0",
+    "FPG": "#performer wants to hold a Mathematics for Everyday Life Seminar at #location_0 at #time_0",
+    "Description": "The target is to have #target_num people attend the event at #location_0 at #time_0, the more people the better.",
+    "task_type": "Public Activity",
+    
+    "task": {
+      "target": [],
+      "target_num": 8,
+      "goal": [
+        {
+          "keyword": "Mathematics for Everyday Life Seminar",
+          "alter_kwd": ["Seminar", "Mathematics Seminar"],
+          "start_time": "2023-02-14 15:00",
+          "duration_in_minutes": 180,
+          "location": "Oak Hill College",
+          "required_character": []
+        }
+      ]
+    },
+    "shared_spatial_mem": {
+      "Oak Hill College": {
+        "hallway": [],
+        "library": [
+          "library sofa",
+          "library table",
+          "bookshelf"
+        ],
+        "classroom": [
+          "blackboard",
+          "classroom podium",
+          "classroom student seating"
+        ]
+      }
+    },
+    "performer": "Giorgio Rossi"
+  },
+  {
+    "goal": "Hold a Cultural Storytelling Evening at #location_0 at #time_0",
+    "FPG": "#performer wants to hold a Cultural Storytelling Evening at #location_0 at #time_0",
+    "Description": "The target is to have #target_num people attend the event at #location_0 at #time_0, the more people the better.",
+    "task_type": "Public Activity",
+    
+    "task": {
+      "target": [],
+      "target_num": 8,
+      "goal": [
+        {
+          "keyword": "Cultural Storytelling Evening",
+          "alter_kwd": ["Storytelling Evening"],
+          "start_time": "2023-02-14 17:00",
+          "duration_in_minutes": 180,
+          "location": "Oak Hill College",
+          "required_character": []
+        }
+      ]
+    },
+    "shared_spatial_mem": {
+      "Oak Hill College": {
+        "hallway": [],
+        "library": [
+          "library sofa",
+          "library table",
+          "bookshelf"
+        ],
+        "classroom": [
+          "blackboard",
+          "classroom podium",
+          "classroom student seating"
+        ]
+      }
+    },
+    "performer": "Hailey Johnson"
+  },
+  {
+    "goal": "Hold a Watercolor Painting Exhibition at #location_0 at #time_0",
+    "FPG": "#performer wants to hold a Watercolor Painting Exhibition at #location_0 at #time_0",
+    "Description": "The target is to have #target_num people attend the event at #location_0 at #time_0, the more people the better.",
+    "task_type": "Public Activity",
+    
+    "task": {
+      "target": [],
+      "target_num": 8,
+      "goal": [
+        {
+          "keyword": "Watercolor Painting Exhibition",
+          "alter_kwd": ["Painting Exhibition"],
+          "start_time": "2023-02-14 13:00",
+          "duration_in_minutes": 180,
+          "location": "Oak Hill College",
+          "required_character": []
+        }
+      ]
+    },
+    "shared_spatial_mem": {
+      "Oak Hill College": {
+        "hallway": [],
+        "library": [
+          "library sofa",
+          "library table",
+          "bookshelf"
+        ],
+        "classroom": [
+          "blackboard",
+          "classroom podium",
+          "classroom student seating"
+        ]
+      }
+    },
+    "performer": "Jennifer Moore"
+  },
+    {
+    "goal": "Meet #target_0 for supply order consultation at some time on 2023-02-14.",
+    "FPG": "#performer wants to meet #target_0 for supply order consultation at some time on 2023-02-14.",
+    "Description": "The target is to be with #target_0 in the same location and the same time and discussing about supply order consultation",
+    "task_type": "Personal appointment",
+    "task": {
+      "target": ["Carmen Ortiz"],
+      "target_num": 2,
+      "goal": [
+        {
+          "keyword": "supply order consultation",
+          "alter_kwd": ["supply order", "consultation"],
+          "start_time": "N/A",
+          "duration_in_minutes": 30,
+          "location": "N/A"
+        }
+      ]
+    },
+    "required_spatial_mem": {
+      "Carlos Gomez's apartment": {
+        "main room": [
+          "bed",
+          "desk",
+          "cooking area",
+          "kitchen sink",
+          "closet",
+          "refrigerator"
+        ]
+      }
+    },
+    "performer": "Arthur Burton"
+  },
+  {
+    "goal": "Meet #target_0 for discussing poetry workshop collaboration at some time on 2023-02-14.",
+    "FPG": "#performer wants to meet #target_0 for discussing poetry workshop collaboration at some time on 2023-02-14.",
+    "Description": "The target is to be with #target_0 in the same location and the same time and discussing about poetry workshop collaboration",
+    "task_type": "Personal appointment",
+    "task": {
+      "target": ["Ayesha Khan"],
+      "target_num": 2,
+      "goal": [
+        {
+          "keyword": "discussing poetry workshop collaboration",
+          "alter_kwd": ["poetry workshop", "workshop collaboration"],
+          "start_time": "N/A",
+          "duration_in_minutes": 30,
+          "location": "N/A"
+        }
+      ]
+    },
+    "required_spatial_mem": {
+      "Dorm for Oak Hill College": {
+        "Ayesha Khan's room": [
+          "shelf",
+          "closet",
+          "desk",
+          "bed"
+        ]
+      }
+    },
+    "performer": "Carlos Gomez"
+  },
+  {
+    "goal": "Meet #target_0 for military history interview at some time on 2023-02-14.",
+    "FPG": "#performer wants to meet #target_0 for military history interview at some time on 2023-02-14.",
+    "Description": "The target is to be with #target_0 in the same location and the same time and interview about military history",
+    "task_type": "Personal appointment",
+    "task": {
+      "target": ["Latoya Williams"],
+      "target_num": 2,
+      "goal": [
+        {
+          "keyword": "military history interview",
+          "alter_kwd": ["interview", "military history"],
+          "start_time": "N/A",
+          "duration_in_minutes": 30,
+          "location": "N/A"
+        }
+      ]
+    },
+    "required_spatial_mem": {
+    "artist's co-living space": {
+      "Latoya Williams's room": [
+        "bed",
+        "desk",
+        "shelf",
+        "closet"
+      ],
+      "common room": [
+        "common room table",
+        "common room sofa"
+      ]
+    }
+    },
+    "performer": "Sam Moore"
+  }
+  ,
+  {
+    "goal": "Meet #target_0 for discussing art showcase arrangement at some time on 2023-02-14.",
+    "FPG": "#performer wants to meet #target_0 for discussing art showcase arrangement at some time on 2023-02-14.",
+    "Description": "The target is to be with #target_0 in the same location and the same time and discuss about art showcase arrangement",
+    "task_type": "Personal appointment",
+    "task": {
+      "target": ["Tom Moreno"],
+      "target_num": 2,
+      "goal": [
+        {
+          "keyword": "discussing art showcase arrangement",
+          "alter_kwd": ["art showcase", "showcase arrangement"],
+          "start_time": "N/A",
+          "duration_in_minutes": 30,
+          "location": "N/A"
+        }
+      ]
+    },
+    "required_spatial_mem": {
+      "Moreno family's house": {
+        "common room": [
+          "shelf",
+          "common room table",
+          "harp"
+        ]
+      }
+    },
+    "performer": "Jennifer Moore"
+  },
+     {
+    "goal": "Find partners for playing math puzzles and games with at #location_0 at some time on 2023-02-14.",
+    "FPG": "#performer wants to find partners for playing math puzzles and games with at #location_0 at some time on 2023-02-14.",
+    "Description": "The target is to be with other people at #location_0 at the same time for playing math puzzles and games together.",
+    "task_type": "Find partner",
+    
+    "task": {
+      "target": [],
+      "target_num": 5,
+      "goal": [
+        {
+          "keyword": "playing math puzzles and games",
+          "alter_kwd": ["math puzzles", "math games"],
+          "start_time": "N/A",
+          "duration_in_minutes": 30,
+          "location": "Oak Hill College",
+          "required_character": ["Giorgio Rossi"]
+        }
+      ]
+    },
+    "shared_spatial_mem": {
+      "Oak Hill College": {
+        "hallway": [],
+        "library": [
+          "library sofa",
+          "library table",
+          "bookshelf"
+        ],
+        "classroom": [
+          "blackboard",
+          "classroom podium",
+          "classroom student seating"
+        ]
+      }
+    },
+    "performer": "Giorgio Rossi"
+  },
+  {
+    "goal": "Find partners for playing board games with at #location_0 at some time on 2023-02-14.",
+    "FPG": "#performer wants to find partners for playing board games at #location_0 at some time on 2023-02-14.",
+    "Description": "The target is to be with other people at #location_0 at the same time for playing board games together.",
+    "task_type": "Find partner",
+    
+    "task": {
+      "target": [],
+      "target_num": 5,
+      "goal": [
+        {
+          "keyword": "playing board games",
+          "alter_kwd": ["board games", "playing games"],
+          "start_time": "N/A",
+          "duration_in_minutes": 30,
+          "location": "Hobbs Cafe",
+          "required_character": ["Maria Lopez"]
+        }
+      ]
+    },
+    "performer": "Maria Lopez"
+  },
+  {
+    "goal": "Find partners for running together at #location_0 at some time on 2023-02-14.",
+    "FPG": "#performer wants to find partners for running together at #location_0 at some time on 2023-02-14.",
+    "Description": "The target is to be with other people at #location_0 at the same time for running together.",
+    "task_type": "Find partner",
+    
+    "task": {
+      "target": [],
+      "target_num": 5,
+      "goal": [
+        {
+          "keyword": "running",
+          "alter_kwd": ["running", "run"],
+          "start_time": "N/A",
+          "duration_in_minutes": 30,
+          "location": "Oak Hill College",
+          "required_character": ["Wolfgang Schulz"]
+        }
+      ]
+    },
+    "shared_spatial_mem": {
+      "Oak Hill College": {
+        "hallway": [],
+        "library": [
+          "library sofa",
+          "library table",
+          "bookshelf"
+        ],
+        "classroom": [
+          "blackboard",
+          "classroom podium",
+          "classroom student seating"
+        ]
+      }
+    },
+    "performer": "Wolfgang Schulz"
+  },
+    {
+    "goal": "Find some audience for the upcoming Live Painting Stream at #time_0",
+    "FPG": "#performer wants to find some audience for the upcoming Live Painting Stream at #time_0.",
+    "Description": "The target is to live stream painting with another #target_num people at #time_0 as audience, the more people the better.",
+    "task_type": "Online meeting",
+    
+    "task": {
+      "target": [],
+      "target_num": 8,
+      "goal": [
+        {
+          "keyword": "Live Painting Stream",
+          "alter_kwd": ["Live Stream", "Painting Stream"],
+          "start_time": "2023-02-14 15:15",
+          "duration_in_minutes": 150,
+          "location": "N/A",
+          "required_character": ["Rajiv Patel"]
+        }
+      ]
+    },
+    "performer": "Rajiv Patel"
+  },
+    {
+    "goal": "Find some audience for the Online Music Composition Workshop at #time_0",
+    "FPG": "#performer wants to find some audience for the Online Music Composition Workshop at #time_0.",
+    "Description": "The target is to hold the Online Music Composition Workshop with another #target_num people at #time_0 as audience, the more people the better.",
+    "task_type": "Online meeting",
+    
+    "task": {
+      "target": [],
+      "target_num": 8,
+      "goal": [
+        {
+          "keyword": "Online Music Composition Workshop",
+          "alter_kwd": ["Music Composition", "Online Workshop"],
+          "start_time": "2023-02-14 16:00",
+          "duration_in_minutes": 150,
+          "location": "N/A",
+          "required_character": ["Eddy Lin"]
+        }
+      ]
+    },
+    "performer": "Eddy Lin"
+  },
+    {
+    "goal": "Find some participants for the online Hackathon at #time_0",
+    "FPG": "#performer wants to find some participants for the online Hackathon at #time_0.",
+    "Description": "The target is to hold the online Hackathon with another #target_num people at #time_0 as participants, the more people the better.",
+    "task_type": "Online meeting",
+    
+    "task": {
+      "target": [],
+      "target_num": 8,
+      "goal": [
+        {
+          "keyword": "online Hackathon",
+          "alter_kwd": ["Hackathon"],
+          "start_time": "2023-02-14 10:00",
+          "duration_in_minutes": 150,
+          "location": "N/A",
+          "required_character": ["Ryan Park"]
+        }
+      ]
+    },
+    "performer": "Ryan Park"
+  },
+    {
+    "goal": "#performer needs to restock the bar inventory but is currently managing a large event, so #performer wants someone to pick up the inventory from The Willows Market and Pharmacy and then deliver it to The Rose and Crown Pub on 2023-02-14.",
+    "FPG": "#performer needs to restock the bar inventory but is currently managing a large event, so #performer wants someone to pick up the inventory from The Willows Market and Pharmacy and then deliver it to The Rose and Crown Pub on 2023-02-14.",
+    "Description": "The target is to have someone else (other than #performer) to pick up the inventory at #location_0 and then deliver it to #location_1 on 2023-02-14.",
+    "task_type": "Ask for others",
+    
+    "task": {
+      "target": [],
+      "target_num": 1,
+      "goal": [
+        {
+          "keyword": "restock the bar inventory",
+          "alter_kwd": ["restock", "bar inventory"],
+          "start_time": "N/A",
+          "duration_in_minutes": 5,
+          "location": "The Willows Market and Pharmacy",
+          "required_character": []
+        },
+        {
+          "keyword": "deliver the bar inventory",
+          "alter_kwd": ["deliver", "bar inventory"],
+          "start_time": "N/A",
+          "duration_in_minutes": 5,
+          "location": "The Rose and Crown Pub",
+          "required_character": []
+        }
+      ]
+    },
+    "shared_spatial_mem": {
+    },
+    "performer": "Arthur Burton"
+  },
+  {
+    "goal": "#performer is on a tight deadline for an animation project and needs someone to pick up her ordered art supplies from Harvey Oak Supply Store and deliver them to her studio at artist's co-living space on 2023-02-14.",
+    "FPG": "#performer is on a tight deadline for an animation project and needs someone to pick up her ordered art supplies from Harvey Oak Supply Store and deliver them to her studio at artist's co-living space on 2023-02-14.",
+    "Description": "The target is to have someone else (other than #performer) to pick up the ordered art supplies at #location_0 and then deliver them to #location_1 on 2023-02-14.",
+    "task_type": "Ask for others",
+    
+    "task": {
+      "target": [],
+      "target_num": 1,
+      "goal": [
+        {
+          "keyword": "pick up art supplies",
+          "alter_kwd": ["pick up", "art supplies"],
+          "start_time": "N/A",
+          "duration_in_minutes": 5,
+          "location": "Harvey Oak Supply Store",
+          "required_character": []
+        },
+        {
+          "keyword": "deliver supplies to studio",
+          "alter_kwd": ["deliver", "art supplies"],
+          "start_time": "N/A",
+          "duration_in_minutes": 5,
+          "location": "artist's co-living space",
+          "required_character": []
+        }
+      ]
+    },
+    "shared_spatial_mem": {
+      "artist's co-living space": {
+        "common room": [
+          "common room table",
+          "common room sofa"
+        ]
+      }
+    },
+    "performer": "Abigail Chen"
+  },
+  {
+    "goal": "#performer wants to introduce a new coffee blend at Hobbs Cafe but is short on staff. She requires someone to buy Arabica coffee beans at Harvey Oak Supply Store and deliver them to Hobbs Cafe on 2023-02-14.",
+    "FPG": "#performer wants to introduce a new coffee blend at Hobbs Cafe but is short on staff. She requires someone to buy Arabica coffee beans at Harvey Oak Supply Store and deliver them to Hobbs Cafe on 2023-02-14.",
+    "Description": "The target is to have someone else (other than #performer) to buy Arabica coffee beans at #location_0 and then deliver them to #location_1 on 2023-02-14.",
+    "task_type": "Ask for others",
+    
+    "task": {
+      "target": [],
+      "target_num": 1,
+      "goal": [
+        {
+          "keyword": "buy Arabica coffee beans",
+          "alter_kwd": ["buy coffee beans", "Arabica coffee beans"],
+          "start_time": "N/A",
+          "duration_in_minutes": 5,
+          "location": "Harvey Oak Supply Store",
+          "required_character": []
+        },
+        {
+          "keyword": "deliver coffee beans",
+          "alter_kwd": ["deliver", "coffee beans"],
+          "start_time": "N/A",
+          "duration_in_minutes": 5,
+          "location": "Hobbs Cafe",
+          "required_character": []
+        }
+      ]
+    },
+    "shared_spatial_mem": {
+    },
+    "performer": "Isabella Rodriguez"
+  }
+]

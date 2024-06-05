@@ -1,0 +1,47 @@
+[
+  {
+    "goal": "Having a party at Hobbs Cafe with customers and friends",
+    "hint": "you may need to invite someone to participate.",
+    "task_type": "group_activity",
+    "keyword": "party",
+    "alter_kwd": [
+      "party"
+    ],
+    "role_requirement": ["cafe owner"],
+    "location": "Hobbs Cafe"
+  },
+  {
+    "goal": "Having a wine party at The Rose and Crown Pub with customers and friends",
+    "hint": "you may need to invite someone to participate.",
+    "task_type": "group_activity",
+    "keyword": "wine party",
+    "alter_kwd": [
+      "party", "wine party"
+    ],
+    "role_requirement": ["bartender"],
+    "location": "The Rose and Crown Pub"
+  },
+  {
+    "goal": "Having a home party at #home with friends and other villagers",
+    "hint": "you may need to invite someone to participate.",
+    "task_type": "group_activity",
+    "keyword": "home party",
+    "alter_kwd": [
+      "party", "home party"
+    ],
+    "role_requirement": ["have_house"],
+    "location": "#home",
+    "max_people": 4
+  },
+  {
+    "goal": "Having a sports meet at Johnson Park with friends and other villagers",
+    "hint": "you may need to invite someone to participate.",
+    "task_type": "group_activity",
+    "keyword": "sports meet",
+    "alter_kwd": [
+      "sport", "sports", "meet", "sport meet"
+    ],
+    "role_requirement": [],
+    "location": "Johnson Park"
+  }
+]

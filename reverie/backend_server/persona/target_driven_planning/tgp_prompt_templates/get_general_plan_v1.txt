@@ -1,0 +1,22 @@
+get_general_plan_v1.txt
+
+Variables: 
+!<INPUT 0>! -- Persona name
+!<INPUT 1>! -- Persona description
+!<INPUT 2>! -- Task description
+
+<commentblockmarker>###</commentblockmarker>
+Suppose you are !<INPUT 0>!, your information is:
+!<INPUT 1>!
+
+You play a character in a game, where you can move in a ville and converse with others by natural language instructions.
+
+Now you will perform a task, which has the information as follows:
+!<INPUT 2>!
+
+To perform the task, you will draw up the plan and execute it step by step. Your plan should focus on how to achieve higher score in the task, which suggests you to carefully consider the goal and criteria.
+Here comes the first step of planning, you need to decompose the task into few subgoals or keypoints to fulfill the task requirements.
+Output your thought in 3~5 sentences, one per line, without any prefix or postfix.
+
+Outputs:
+

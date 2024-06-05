@@ -1,0 +1,480 @@
+[
+    {
+        "goal": "Hold a Philosophy Debate Night at The Rose and Crown Pub at 2023-02-14 19:00",
+        "FPG": "Adam Smith wants to hold a Philosophy Debate Night at The Rose and Crown Pub at 2023-02-14 19:00",
+        "Description": "The target is to have 7 people attend the event at The Rose and Crown Pub at 2023-02-14 19:00, the more people the better.",
+        "task_type": "Public Activity",
+        "task": {
+            "target": [],
+            "target_num": 7,
+            "goal": [
+                {
+                    "keyword": "Philosophy Debate Night",
+                    "alter_kwd": [
+                        "Debate",
+                        "Debate Night"
+                    ],
+                    "start_time": "2023-02-14 19:00",
+                    "duration_in_minutes": 180,
+                    "location": "The Rose and Crown Pub",
+                    "required_character": []
+                }
+            ]
+        },
+        "performer": "Adam Smith",
+        "n_characters": 12,
+        "all_chars": [
+            "Adam Smith",
+            "Carlos Gomez",
+            "Abigail Chen",
+            "Ayesha Khan",
+            "Ryan Park",
+            "Arthur Burton",
+            "Tom Moreno",
+            "Yuriko Yamamoto",
+            "Jennifer Moore",
+            "Giorgio Rossi",
+            "Wolfgang Schulz",
+            "Latoya Williams"
+        ],
+        "env_name": "base_0209_public_activity_0"
+    },
+    {
+        "goal": "Hold a DIY Home Repair Workshop at Harvey Oak Supply Store at 2023-02-14 10:00",
+        "FPG": "Carmen Ortiz wants to hold a DIY Home Repair Workshop at Harvey Oak Supply Store at 2023-02-14 10:00",
+        "Description": "The target is to have 6 people attend the event at Harvey Oak Supply Store at 2023-02-14 10:00, the more people the better.",
+        "task_type": "Public Activity",
+        "task": {
+            "target": [],
+            "target_num": 6,
+            "goal": [
+                {
+                    "keyword": "DIY Home Repair Workshop",
+                    "alter_kwd": [
+                        "Workshop",
+                        "DIY"
+                    ],
+                    "start_time": "2023-02-14 10:00",
+                    "duration_in_minutes": 180,
+                    "location": "Harvey Oak Supply Store",
+                    "required_character": []
+                }
+            ]
+        },
+        "performer": "Carmen Ortiz",
+        "n_characters": 11,
+        "all_chars": [
+            "Carmen Ortiz",
+            "Jennifer Moore",
+            "Tamara Taylor",
+            "Sam Moore",
+            "Maria Lopez",
+            "Tom Moreno",
+            "Latoya Williams",
+            "Carlos Gomez",
+            "Arthur Burton",
+            "Eddy Lin",
+            "Yuriko Yamamoto"
+        ],
+        "env_name": "base_0209_public_activity_1"
+    },
+    {
+        "goal": "Meet Ayesha Khan for discussing poetry workshop collaboration at some time on 2023-02-14.",
+        "FPG": "Carlos Gomez wants to meet Ayesha Khan for discussing poetry workshop collaboration at some time on 2023-02-14.",
+        "Description": "The target is to be with Ayesha Khan in the same location and the same time and discussing about poetry workshop collaboration",
+        "task_type": "Personal appointment",
+        "task": {
+            "target": [
+                "Ayesha Khan"
+            ],
+            "target_num": 2,
+            "goal": [
+                {
+                    "keyword": "discussing poetry workshop collaboration",
+                    "alter_kwd": [
+                        "poetry workshop",
+                        "workshop collaboration"
+                    ],
+                    "start_time": "N/A",
+                    "duration_in_minutes": 30,
+                    "location": "N/A"
+                }
+            ]
+        },
+        "required_spatial_mem": {
+            "Dorm for Oak Hill College": {
+                "Ayesha Khan's room": [
+                    "shelf",
+                    "closet",
+                    "desk",
+                    "bed"
+                ]
+            }
+        },
+        "performer": "Carlos Gomez",
+        "n_characters": 13,
+        "all_chars": [
+            "Carlos Gomez",
+            "Eddy Lin",
+            "Latoya Williams",
+            "Mei Lin",
+            "Wolfgang Schulz",
+            "Isabella Rodriguez",
+            "Hailey Johnson",
+            "Ayesha Khan",
+            "Yuriko Yamamoto",
+            "Klaus Mueller",
+            "Francisco Lopez",
+            "John Lin",
+            "Adam Smith"
+        ],
+        "env_name": "base_0209_personal_appointment_8"
+    },
+    {
+        "goal": "Meet Latoya Williams for military history interview at some time on 2023-02-14.",
+        "FPG": "Sam Moore wants to meet Latoya Williams for military history interview at some time on 2023-02-14.",
+        "Description": "The target is to be with Latoya Williams in the same location and the same time and interview about military history",
+        "task_type": "Personal appointment",
+        "task": {
+            "target": [
+                "Latoya Williams"
+            ],
+            "target_num": 2,
+            "goal": [
+                {
+                    "keyword": "military history interview",
+                    "alter_kwd": [
+                        "interview",
+                        "military history"
+                    ],
+                    "start_time": "N/A",
+                    "duration_in_minutes": 30,
+                    "location": "N/A"
+                }
+            ]
+        },
+        "required_spatial_mem": {
+            "artist's co-living space": {
+                "Latoya Williams's room": [
+                    "bed",
+                    "desk",
+                    "shelf",
+                    "closet"
+                ],
+                "common room": [
+                    "common room table",
+                    "common room sofa"
+                ]
+            }
+        },
+        "performer": "Sam Moore",
+        "n_characters": 13,
+        "all_chars": [
+            "Sam Moore",
+            "Ayesha Khan",
+            "Latoya Williams",
+            "Jennifer Moore",
+            "Giorgio Rossi",
+            "Eddy Lin",
+            "Jane Moreno",
+            "Yuriko Yamamoto",
+            "Carmen Ortiz",
+            "Tamara Taylor",
+            "Arthur Burton",
+            "John Lin",
+            "Rajiv Patel"
+        ],
+        "env_name": "base_0209_personal_appointment_9"
+    },
+    {
+        "goal": "Find partners for playing math puzzles and games with at Oak Hill College at some time on 2023-02-14.",
+        "FPG": "Giorgio Rossi wants to find partners for playing math puzzles and games with at Oak Hill College at some time on 2023-02-14.",
+        "Description": "The target is to be with other people at Oak Hill College at the same time for playing math puzzles and games together.",
+        "task_type": "Find partner",
+        "task": {
+            "target": [],
+            "target_num": 5,
+            "goal": [
+                {
+                    "keyword": "playing math puzzles and games",
+                    "alter_kwd": [
+                        "math puzzles",
+                        "math games"
+                    ],
+                    "start_time": "N/A",
+                    "duration_in_minutes": 30,
+                    "location": "Oak Hill College",
+                    "required_character": [
+                        "Giorgio Rossi"
+                    ]
+                }
+            ]
+        },
+        "shared_spatial_mem": {
+            "Oak Hill College": {
+                "hallway": [],
+                "library": [
+                    "library sofa",
+                    "library table",
+                    "bookshelf"
+                ],
+                "classroom": [
+                    "blackboard",
+                    "classroom podium",
+                    "classroom student seating"
+                ]
+            }
+        },
+        "performer": "Giorgio Rossi",
+        "n_characters": 11,
+        "all_chars": [
+            "Giorgio Rossi",
+            "Wolfgang Schulz",
+            "Jane Moreno",
+            "Isabella Rodriguez",
+            "Latoya Williams",
+            "Arthur Burton",
+            "Ryan Park",
+            "Hailey Johnson",
+            "Sam Moore",
+            "Klaus Mueller",
+            "Ayesha Khan"
+        ],
+        "env_name": "base_0209_find_partner_11"
+    },
+    {
+        "goal": "Find partners for playing board games with at Hobbs Cafe at some time on 2023-02-14.",
+        "FPG": "Maria Lopez wants to find partners for playing board games at Hobbs Cafe at some time on 2023-02-14.",
+        "Description": "The target is to be with other people at Hobbs Cafe at the same time for playing board games together.",
+        "task_type": "Find partner",
+        "task": {
+            "target": [],
+            "target_num": 5,
+            "goal": [
+                {
+                    "keyword": "playing board games",
+                    "alter_kwd": [
+                        "board games",
+                        "playing games"
+                    ],
+                    "start_time": "N/A",
+                    "duration_in_minutes": 30,
+                    "location": "Hobbs Cafe",
+                    "required_character": [
+                        "Maria Lopez"
+                    ]
+                }
+            ]
+        },
+        "performer": "Maria Lopez",
+        "n_characters": 11,
+        "all_chars": [
+            "Maria Lopez",
+            "Jennifer Moore",
+            "Eddy Lin",
+            "Klaus Mueller",
+            "Mei Lin",
+            "Francisco Lopez",
+            "Jane Moreno",
+            "Wolfgang Schulz",
+            "Tamara Taylor",
+            "John Lin",
+            "Arthur Burton"
+        ],
+        "env_name": "base_0209_find_partner_12"
+    },
+    {
+        "goal": "Find some audience for the upcoming Live Painting Stream at 2023-02-14 15:15",
+        "FPG": "Rajiv Patel wants to find some audience for the upcoming Live Painting Stream at 2023-02-14 15:15.",
+        "Description": "The target is to live stream painting with another 8 people at 2023-02-14 15:15 as audience, the more people the better.",
+        "task_type": "Online meeting",
+        "task": {
+            "target": [],
+            "target_num": 8,
+            "goal": [
+                {
+                    "keyword": "Live Painting Stream",
+                    "alter_kwd": [
+                        "Live Stream",
+                        "Painting Stream"
+                    ],
+                    "start_time": "2023-02-14 15:15",
+                    "duration_in_minutes": 150,
+                    "location": "N/A",
+                    "required_character": [
+                        "Rajiv Patel"
+                    ]
+                }
+            ]
+        },
+        "performer": "Rajiv Patel",
+        "n_characters": 13,
+        "all_chars": [
+            "Rajiv Patel",
+            "Carmen Ortiz",
+            "Carlos Gomez",
+            "Mei Lin",
+            "Arthur Burton",
+            "Isabella Rodriguez",
+            "Yuriko Yamamoto",
+            "Abigail Chen",
+            "Adam Smith",
+            "Tamara Taylor",
+            "Jennifer Moore",
+            "Klaus Mueller",
+            "Latoya Williams"
+        ],
+        "env_name": "base_0209_online_meeting_14"
+    },
+    {
+        "goal": "Find some audience for the Online Music Composition Workshop at 2023-02-14 16:00",
+        "FPG": "Eddy Lin wants to find some audience for the Online Music Composition Workshop at 2023-02-14 16:00.",
+        "Description": "The target is to hold the Online Music Composition Workshop with another 8 people at 2023-02-14 16:00 as audience, the more people the better.",
+        "task_type": "Online meeting",
+        "task": {
+            "target": [],
+            "target_num": 8,
+            "goal": [
+                {
+                    "keyword": "Online Music Composition Workshop",
+                    "alter_kwd": [
+                        "Music Composition",
+                        "Online Workshop"
+                    ],
+                    "start_time": "2023-02-14 16:00",
+                    "duration_in_minutes": 150,
+                    "location": "N/A",
+                    "required_character": [
+                        "Eddy Lin"
+                    ]
+                }
+            ]
+        },
+        "performer": "Eddy Lin",
+        "n_characters": 11,
+        "all_chars": [
+            "Eddy Lin",
+            "Adam Smith",
+            "Klaus Mueller",
+            "John Lin",
+            "Jane Moreno",
+            "Francisco Lopez",
+            "Tom Moreno",
+            "Hailey Johnson",
+            "Isabella Rodriguez",
+            "Wolfgang Schulz",
+            "Carmen Ortiz"
+        ],
+        "env_name": "base_0209_online_meeting_15"
+    },
+    {
+        "goal": "Arthur Burton needs to restock the bar inventory but is currently managing a large event, so Arthur Burton wants someone to pick up the inventory from The Willows Market and Pharmacy and then deliver it to The Rose and Crown Pub on 2023-02-14.",
+        "FPG": "Arthur Burton needs to restock the bar inventory but is currently managing a large event, so Arthur Burton wants someone to pick up the inventory from The Willows Market and Pharmacy and then deliver it to The Rose and Crown Pub on 2023-02-14.",
+        "Description": "The target is to have someone else (other than Arthur Burton) to pick up the inventory at The Willows Market and Pharmacy and then deliver it to The Rose and Crown Pub on 2023-02-14.",
+        "task_type": "Ask for others",
+        "task": {
+            "target": [],
+            "target_num": 1,
+            "goal": [
+                {
+                    "keyword": "restock the bar inventory",
+                    "alter_kwd": [
+                        "restock",
+                        "bar inventory"
+                    ],
+                    "start_time": "N/A",
+                    "duration_in_minutes": 5,
+                    "location": "The Willows Market and Pharmacy",
+                    "required_character": []
+                },
+                {
+                    "keyword": "deliver the bar inventory",
+                    "alter_kwd": [
+                        "deliver",
+                        "bar inventory"
+                    ],
+                    "start_time": "N/A",
+                    "duration_in_minutes": 5,
+                    "location": "The Rose and Crown Pub",
+                    "required_character": []
+                }
+            ]
+        },
+        "shared_spatial_mem": {},
+        "performer": "Arthur Burton",
+        "n_characters": 12,
+        "all_chars": [
+            "Arthur Burton",
+            "Hailey Johnson",
+            "Francisco Lopez",
+            "Isabella Rodriguez",
+            "Ryan Park",
+            "John Lin",
+            "Adam Smith",
+            "Jennifer Moore",
+            "Latoya Williams",
+            "Giorgio Rossi",
+            "Sam Moore",
+            "Maria Lopez"
+        ],
+        "env_name": "base_0209_ask_for_others_17"
+    },
+    {
+        "goal": "Abigail Chen is on a tight deadline for an animation project and needs someone to pick up her ordered art supplies from Harvey Oak Supply Store and deliver them to her studio at artist's co-living space on 2023-02-14.",
+        "FPG": "Abigail Chen is on a tight deadline for an animation project and needs someone to pick up her ordered art supplies from Harvey Oak Supply Store and deliver them to her studio at artist's co-living space on 2023-02-14.",
+        "Description": "The target is to have someone else (other than Abigail Chen) to pick up the ordered art supplies at Harvey Oak Supply Store and then deliver them to artist's co-living space on 2023-02-14.",
+        "task_type": "Ask for others",
+        "task": {
+            "target": [],
+            "target_num": 1,
+            "goal": [
+                {
+                    "keyword": "pick up art supplies",
+                    "alter_kwd": [
+                        "pick up",
+                        "art supplies"
+                    ],
+                    "start_time": "N/A",
+                    "duration_in_minutes": 5,
+                    "location": "Harvey Oak Supply Store",
+                    "required_character": []
+                },
+                {
+                    "keyword": "deliver supplies to studio",
+                    "alter_kwd": [
+                        "deliver",
+                        "art supplies"
+                    ],
+                    "start_time": "N/A",
+                    "duration_in_minutes": 5,
+                    "location": "artist's co-living space",
+                    "required_character": []
+                }
+            ]
+        },
+        "shared_spatial_mem": {
+            "artist's co-living space": {
+                "common room": [
+                    "common room table",
+                    "common room sofa"
+                ]
+            }
+        },
+        "performer": "Abigail Chen",
+        "n_characters": 11,
+        "all_chars": [
+            "Abigail Chen",
+            "John Lin",
+            "Isabella Rodriguez",
+            "Adam Smith",
+            "Ayesha Khan",
+            "Maria Lopez",
+            "Yuriko Yamamoto",
+            "Wolfgang Schulz",
+            "Klaus Mueller",
+            "Sam Moore",
+            "Tamara Taylor"
+        ],
+        "env_name": "base_0209_ask_for_others_18"
+    }
+]

@@ -1,0 +1,128 @@
+[
+  {
+    "goal": "Meet #target_0 for supply order consultation at some time on 2023-02-14.",
+    "FPG": "#performer wants to meet #target_0 for supply order consultation at some time on 2023-02-14.",
+    "Description": "The target is to be with #target_0 in the same location and the same time and discussing about supply order consultation",
+    "task_type": "Personal appointment",
+    "task": {
+      "target": ["Carmen Ortiz"],
+      "target_num": 2,
+      "goal": [
+        {
+          "keyword": "supply order consultation",
+          "alter_kwd": ["supply order", "consultation"],
+          "start_time": "N/A",
+          "duration_in_minutes": 30,
+          "location": "N/A"
+        }
+      ]
+    },
+    "required_spatial_mem": {
+      "Carlos Gomez's apartment": {
+        "main room": [
+          "bed",
+          "desk",
+          "cooking area",
+          "kitchen sink",
+          "closet",
+          "refrigerator"
+        ]
+      }
+    },
+    "performer": "Arthur Burton"
+  },
+  {
+    "goal": "Meet #target_0 for discussing poetry workshop collaboration at some time on 2023-02-14.",
+    "FPG": "#performer wants to meet #target_0 for discussing poetry workshop collaboration at some time on 2023-02-14.",
+    "Description": "The target is to be with #target_0 in the same location and the same time and discussing about poetry workshop collaboration",
+    "task_type": "Personal appointment",
+    "task": {
+      "target": ["Ayesha Khan"],
+      "target_num": 2,
+      "goal": [
+        {
+          "keyword": "discussing poetry workshop collaboration",
+          "alter_kwd": ["poetry workshop", "workshop collaboration"],
+          "start_time": "N/A",
+          "duration_in_minutes": 30,
+          "location": "N/A"
+        }
+      ]
+    },
+    "required_spatial_mem": {
+      "Dorm for Oak Hill College": {
+        "Ayesha Khan's room": [
+          "shelf",
+          "closet",
+          "desk",
+          "bed"
+        ]
+      }
+    },
+    "performer": "Carlos Gomez"
+  },
+  {
+    "goal": "Meet #target_0 for military history interview at some time on 2023-02-14.",
+    "FPG": "#performer wants to meet #target_0 for military history interview at some time on 2023-02-14.",
+    "Description": "The target is to be with #target_0 in the same location and the same time and interview about military history",
+    "task_type": "Personal appointment",
+    "task": {
+      "target": ["Latoya Williams"],
+      "target_num": 2,
+      "goal": [
+        {
+          "keyword": "military history interview",
+          "alter_kwd": ["interview", "military history"],
+          "start_time": "N/A",
+          "duration_in_minutes": 30,
+          "location": "N/A"
+        }
+      ]
+    },
+    "required_spatial_mem": {
+    "artist's co-living space": {
+      "Latoya Williams's room": [
+        "bed",
+        "desk",
+        "shelf",
+        "closet"
+      ],
+      "common room": [
+        "common room table",
+        "common room sofa"
+      ]
+    }
+    },
+    "performer": "Sam Moore"
+  }
+  ,
+  {
+    "goal": "Meet #target_0 for discussing art showcase arrangement at some time on 2023-02-14.",
+    "FPG": "#performer wants to meet #target_0 for discussing art showcase arrangement at some time on 2023-02-14.",
+    "Description": "The target is to be with #target_0 in the same location and the same time and discuss about art showcase arrangement",
+    "task_type": "Personal appointment",
+    "task": {
+      "target": ["Tom Moreno"],
+      "target_num": 2,
+      "goal": [
+        {
+          "keyword": "discussing art showcase arrangement",
+          "alter_kwd": ["art showcase", "showcase arrangement"],
+          "start_time": "N/A",
+          "duration_in_minutes": 30,
+          "location": "N/A"
+        }
+      ]
+    },
+    "required_spatial_mem": {
+      "Moreno family's house": {
+        "common room": [
+          "shelf",
+          "common room table",
+          "harp"
+        ]
+      }
+    },
+    "performer": "Jennifer Moore"
+  }
+]

@@ -1,0 +1,156 @@
+[
+  {
+    "goal": "Hold a Philosophy Debate Night at #location_0 at #time_0",
+    "FPG": "#performer wants to hold a Philosophy Debate Night at #location_0 at #time_0",
+    "Description": "The target is to have #target_num people attend the event at #location_0 at #time_0, the more people the better.",
+    "task_type": "Public Activity",
+    
+    "task": {
+      "target": [],
+      "target_num": 8,
+      "goal": [
+        {
+          "keyword": "Philosophy Debate Night",
+          "alter_kwd": ["Debate", "Debate Night"],
+          "start_time": "2023-02-14 19:00",
+          "duration_in_minutes": 180,
+          "location": "The Rose and Crown Pub",
+          "required_character": []
+        }
+      ]
+    },
+    "performer": "Adam Smith"
+  },
+  {
+    "goal": "Hold a DIY Home Repair Workshop at #location_0 at #time_0",
+    "FPG": "#performer wants to hold a DIY Home Repair Workshop at #location_0 at #time_0",
+    "Description": "The target is to have #target_num people attend the event at #location_0 at #time_0, the more people the better.",
+    "task_type": "Public Activity",
+    
+    "task": {
+      "target": [],
+      "target_num": 8,
+      "goal": [
+        {
+          "keyword": "DIY Home Repair Workshop",
+          "alter_kwd": ["Workshop", "DIY"],
+          "start_time": "2023-02-14 10:00",
+          "duration_in_minutes": 180,
+          "location": "Harvey Oak Supply Store",
+          "required_character": []
+        }
+      ]
+    },
+    "performer": "Carmen Ortiz"
+  },
+  {
+    "goal": "Hold a Jazz and Classical Fusion Concert at #location_0 at #time_0",
+    "FPG": "#performer wants to hold a Jazz and Classical Fusion Concert at #location_0 at #time_0",
+    "Description": "The target is to have #target_num people attend the event at #location_0 at #time_0, the more people the better.",
+    "task_type": "Public Activity",
+    
+    "task": {
+      "target": [],
+      "target_num": 8,
+      "goal": [
+        {
+          "keyword": "Jazz and Classical Fusion Concert",
+          "alter_kwd": ["Concert", "Jazz", "Jazz and Classical Fusion"],
+          "start_time": "2023-02-14 20:00",
+          "duration_in_minutes": 180,
+          "location": "Oak Hill College",
+          "required_character": []
+        }
+      ]
+    },
+    "performer": "Eddy Lin"
+  },
+  {
+    "goal": "Hold a Jazz and Stand-up Comedy Night at #location_0 at #time_0",
+    "FPG": "#performer wants to hold a Stand-up Comedy Night at #location_0 at #time_0",
+    "Description": "The target is to have #target_num people attend the event at #location_0 at #time_0, the more people the better.",
+    "task_type": "Public Activity",
+    
+    "task": {
+      "target": [],
+      "target_num": 8,
+      "goal": [
+        {
+          "keyword": "Stand-up Comedy Night",
+          "alter_kwd": ["Comedy", "Comedy Night"],
+          "start_time": "2023-02-14 20:00",
+          "duration_in_minutes": 180,
+          "location": "Oak Hill College",
+          "required_character": []
+        }
+      ]
+    },
+    "performer": "Francisco Lopez"
+  },
+  {
+    "goal": "Hold a Mathematics for Everyday Life Seminar at #location_0 at #time_0",
+    "FPG": "#performer wants to hold a Mathematics for Everyday Life Seminar at #location_0 at #time_0",
+    "Description": "The target is to have #target_num people attend the event at #location_0 at #time_0, the more people the better.",
+    "task_type": "Public Activity",
+    
+    "task": {
+      "target": [],
+      "target_num": 8,
+      "goal": [
+        {
+          "keyword": "Mathematics for Everyday Life Seminar",
+          "alter_kwd": ["Seminar", "Mathematics Seminar"],
+          "start_time": "2023-02-14 15:00",
+          "duration_in_minutes": 180,
+          "location": "Oak Hill College",
+          "required_character": []
+        }
+      ]
+    },
+    "performer": "Giorgio Rossi"
+  },
+  {
+    "goal": "Hold a Cultural Storytelling Evening at #location_0 at #time_0",
+    "FPG": "#performer wants to hold a Cultural Storytelling Evening at #location_0 at #time_0",
+    "Description": "The target is to have #target_num people attend the event at #location_0 at #time_0, the more people the better.",
+    "task_type": "Public Activity",
+    
+    "task": {
+      "target": [],
+      "target_num": 8,
+      "goal": [
+        {
+          "keyword": "Cultural Storytelling Evening",
+          "alter_kwd": ["Storytelling Evening"],
+          "start_time": "2023-02-14 17:00",
+          "duration_in_minutes": 180,
+          "location": "Oak Hill College",
+          "required_character": []
+        }
+      ]
+    },
+    "performer": "Hailey Johnson"
+  },
+  {
+    "goal": "Hold a Watercolor Painting Exhibition at #location_0 at #time_0",
+    "FPG": "#performer wants to hold a Watercolor Painting Exhibition at #location_0 at #time_0",
+    "Description": "The target is to have #target_num people attend the event at #location_0 at #time_0, the more people the better.",
+    "task_type": "Public Activity",
+    
+    "task": {
+      "target": [],
+      "target_num": 8,
+      "goal": [
+        {
+          "keyword": "Watercolor Painting Exhibition",
+          "alter_kwd": ["Painting Exhibition"],
+          "start_time": "2023-02-14 13:00",
+          "duration_in_minutes": 180,
+          "location": "Oak Hill College",
+          "required_character": []
+        }
+      ]
+    },
+    "performer": "Jennifer Moore"
+  }
+]

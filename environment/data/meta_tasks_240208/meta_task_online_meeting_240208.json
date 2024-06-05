@@ -1,0 +1,68 @@
+[
+  {
+    "goal": "Find some audience for the upcoming Live Painting Stream at #time_0",
+    "FPG": "#performer wants to find some audience for the upcoming Live Painting Stream at #time_0.",
+    "Description": "The target is to live stream painting with another #target_num people at #time_0 as audience, the more people the better.",
+    "task_type": "Online meeting",
+    
+    "task": {
+      "target": [],
+      "target_num": 8,
+      "goal": [
+        {
+          "keyword": "Live Painting Stream",
+          "alter_kwd": ["Live Stream", "Painting Stream"],
+          "start_time": "2023-02-14 15:15",
+          "duration_in_minutes": 150,
+          "location": "N/A",
+          "required_character": ["Rajiv Patel"]
+        }
+      ]
+    },
+    "performer": "Rajiv Patel"
+  },
+    {
+    "goal": "Find some audience for the Online Music Composition Workshop at #time_0",
+    "FPG": "#performer wants to find some audience for the Online Music Composition Workshop at #time_0.",
+    "Description": "The target is to hold the Online Music Composition Workshop with another #target_num people at #time_0 as audience, the more people the better.",
+    "task_type": "Online meeting",
+    
+    "task": {
+      "target": [],
+      "target_num": 8,
+      "goal": [
+        {
+          "keyword": "Online Music Composition Workshop",
+          "alter_kwd": ["Music Composition", "Online Workshop"],
+          "start_time": "2023-02-14 16:00",
+          "duration_in_minutes": 150,
+          "location": "N/A",
+          "required_character": ["Eddy Lin"]
+        }
+      ]
+    },
+    "performer": "Eddy Lin"
+  },
+    {
+    "goal": "Find some participants for the online Hackathon at #time_0",
+    "FPG": "#performer wants to find some participants for the online Hackathon at #time_0.",
+    "Description": "The target is to hold the online Hackathon with another #target_num people at #time_0 as participants, the more people the better.",
+    "task_type": "Online meeting",
+    
+    "task": {
+      "target": [],
+      "target_num": 8,
+      "goal": [
+        {
+          "keyword": "online Hackathon",
+          "alter_kwd": ["Hackathon"],
+          "start_time": "2023-02-14 10:00",
+          "duration_in_minutes": 150,
+          "location": "N/A",
+          "required_character": ["Ryan Park"]
+        }
+      ]
+    },
+    "performer": "Ryan Park"
+  }
+]

@@ -1,0 +1,984 @@
+[
+    {
+        "goal": "Hold a Valentine's Day party at Hobbs Cafe at 2023-02-14 19:00 on 2023-02-14 19:00",
+        "FPG": "Isabella Rodriguez wants to hold a Valentine's Day party at Hobbs Cafe at 2023-02-14 19:00",
+        "Description": "The target is to have 6 people attend the party at Hobbs Cafe at 2023-02-14 19:00, the more people the better.",
+        "task_type": "Party",
+        "task": {
+            "target": [],
+            "target_num": 7,
+            "goal": [
+                {
+                    "keyword": "party",
+                    "alter_kwd": [
+                        "party",
+                        "Valentine's Day party"
+                    ],
+                    "start_time": "2023-02-14 19:00",
+                    "duration_in_minutes": 180,
+                    "location": "Hobbs Cafe",
+                    "required_character": []
+                }
+            ]
+        },
+        "performer": "Isabella Rodriguez",
+        "role_requirement": [
+            "cafe owner"
+        ],
+        "Note": "Valentine's Day Party",
+        "n_characters": 13,
+        "all_chars": [
+            "Isabella Rodriguez",
+            "Adam Smith",
+            "Tom Moreno",
+            "Arthur Burton",
+            "Ayesha Khan",
+            "Jennifer Moore",
+            "Francisco Lopez",
+            "Abigail Chen",
+            "Rajiv Patel",
+            "Mei Lin",
+            "Carmen Ortiz",
+            "Jane Moreno",
+            "Hailey Johnson"
+        ],
+        "env_name": "base_1124_party_0"
+    },
+    {
+        "goal": "Hold a wine party at The Rose and Crown Pub at 2023-02-14 15:00 on 2023-02-14 15:00",
+        "FPG": "Arthur Burton wants to hold a Valentine's Day party at Hobbs Cafe at 2023-02-14 15:00",
+        "Description": "The target is to have 6 people attend the party at The Rose and Crown Pub at 2023-02-14 15:00, the more people the better.",
+        "task_type": "Party",
+        "task": {
+            "target": [],
+            "target_num": 7,
+            "goal": [
+                {
+                    "keyword": "party",
+                    "alter_kwd": [
+                        "party",
+                        "wine party"
+                    ],
+                    "start_time": "2023-02-14 15:00",
+                    "duration_in_minutes": 180,
+                    "location": "The Rose and Crown Pub",
+                    "required_character": []
+                }
+            ]
+        },
+        "performer": "Arthur Burton",
+        "role_requirement": [
+            "bartender"
+        ],
+        "Note": "Wine Party",
+        "n_characters": 12,
+        "all_chars": [
+            "Arthur Burton",
+            "Sam Moore",
+            "Latoya Williams",
+            "Carmen Ortiz",
+            "Ayesha Khan",
+            "Eddy Lin",
+            "Carlos Gomez",
+            "Abigail Chen",
+            "Mei Lin",
+            "Maria Lopez",
+            "Wolfgang Schulz",
+            "Ryan Park"
+        ],
+        "env_name": "base_1124_party_1"
+    },
+    {
+        "goal": "Hold an art exhibition at Johnson Park at 2023-02-14 10:00 on 2023-02-14 10:00",
+        "FPG": "Abigail Chen wants to hold an art exhibition at Johnson Park at 2023-02-14 10:00",
+        "Description": "The target is to have 5 people attend the exhibition at Johnson Park at 2023-02-14 10:00, the more people the better.",
+        "task_type": "Public Activity",
+        "task": {
+            "target": [],
+            "target_num": 6,
+            "goal": [
+                {
+                    "keyword": "art exhibition",
+                    "alter_kwd": [],
+                    "start_time": "2023-02-14 10:00",
+                    "duration_in_minutes": 240,
+                    "location": "Johnson Park",
+                    "required_character": []
+                }
+            ]
+        },
+        "performer": "Abigail Chen",
+        "performer_choices": [
+            "Abigail Chen",
+            "Jennifer Moore",
+            "Rajiv Patel"
+        ],
+        "role_requirement": [
+            "artist"
+        ],
+        "Note": "Art Exhibition",
+        "n_characters": 11,
+        "all_chars": [
+            "Abigail Chen",
+            "Tom Moreno",
+            "Rajiv Patel",
+            "Latoya Williams",
+            "Ayesha Khan",
+            "Sam Moore",
+            "Tamara Taylor",
+            "Mei Lin",
+            "Arthur Burton",
+            "Hailey Johnson",
+            "Klaus Mueller"
+        ],
+        "env_name": "base_1124_public_activity_2"
+    },
+    {
+        "goal": "Hold a poetry session at The Rose and Crown Pub at 2023-02-14 19:00 on 2023-02-14 19:00",
+        "FPG": "Carlos Gomez wants to hold a poetry session at The Rose and Crown Pub at 2023-02-14 19:00",
+        "Description": "The target is to have 6 people attend the poetry session at The Rose and Crown Pub at 2023-02-14 19:00, the more people the better.",
+        "task_type": "Public Activity",
+        "task": {
+            "target": [],
+            "target_num": 7,
+            "goal": [
+                {
+                    "keyword": "poetry session",
+                    "alter_kwd": [
+                        "poetry",
+                        "meeting",
+                        "conference"
+                    ],
+                    "start_time": "2023-02-14 19:00",
+                    "duration_in_minutes": 180,
+                    "location": "The Rose and Crown Pub",
+                    "required_character": []
+                }
+            ]
+        },
+        "performer": "Carlos Gomez",
+        "location_choices": [
+            "Johnson Park",
+            "The Rose and Crown Pub"
+        ],
+        "role_requirement": [],
+        "Note": "poetry session",
+        "n_characters": 13,
+        "all_chars": [
+            "Carlos Gomez",
+            "Arthur Burton",
+            "Tamara Taylor",
+            "Isabella Rodriguez",
+            "Maria Lopez",
+            "Jennifer Moore",
+            "Hailey Johnson",
+            "Giorgio Rossi",
+            "Francisco Lopez",
+            "Latoya Williams",
+            "Wolfgang Schulz",
+            "Ryan Park",
+            "Jane Moreno"
+        ],
+        "env_name": "base_1124_public_activity_3"
+    },
+    {
+        "goal": "Hold a public buffet at Hobbs Cafe at 2023-02-14 17:30",
+        "FPG": "Sam Moore wants to hold a public buffet at Hobbs Cafe at 2023-02-14 17:30",
+        "Description": "The target is to have 5 people attend the buffet at Hobbs Cafe at 2023-02-14 17:30, the more people the better.",
+        "task_type": "Public Activity",
+        "task": {
+            "target": [],
+            "target_num": 6,
+            "goal": [
+                {
+                    "keyword": "buffet",
+                    "alter_kwd": [
+                        "lunch",
+                        "banquet",
+                        "dinner"
+                    ],
+                    "start_time": "2023-02-14 17:30",
+                    "duration_in_minutes": 150,
+                    "location": "Hobbs Cafe",
+                    "required_character": []
+                }
+            ]
+        },
+        "performer": "Sam Moore",
+        "time_choices": [
+            "2023-02-14 12:00",
+            "2023-02-14 17:30"
+        ],
+        "role_requirement": [],
+        "Note": "buffet",
+        "n_characters": 11,
+        "all_chars": [
+            "Sam Moore",
+            "Maria Lopez",
+            "Arthur Burton",
+            "Abigail Chen",
+            "Isabella Rodriguez",
+            "Carlos Gomez",
+            "Latoya Williams",
+            "Jennifer Moore",
+            "Carmen Ortiz",
+            "Adam Smith",
+            "Rajiv Patel"
+        ],
+        "env_name": "base_1124_public_activity_4"
+    },
+    {
+        "goal": "Hold an open-air concert at Johnson Park at 2023-02-14 17:30",
+        "FPG": "Eddy Lin wants to hold an open-air concert at Johnson Park at 2023-02-14 17:30",
+        "Description": "The target is to have 6 people attend the open-air concert at Johnson Park at 2023-02-14 17:30, the more people the better.",
+        "task_type": "Public Activity",
+        "task": {
+            "target": [],
+            "target_num": 7,
+            "goal": [
+                {
+                    "keyword": "concert",
+                    "alter_kwd": [
+                        "concert",
+                        "music"
+                    ],
+                    "start_time": "2023-02-14 17:30",
+                    "duration_in_minutes": 150,
+                    "location": "Johnson Park",
+                    "required_character": []
+                }
+            ]
+        },
+        "performer": "Eddy Lin",
+        "time_choices": [
+            "2023-02-14 10:00",
+            "2023-02-14 17:30",
+            "2023-02-14 19:00"
+        ],
+        "role_requirement": [],
+        "Note": "open-air concert",
+        "n_characters": 13,
+        "all_chars": [
+            "Eddy Lin",
+            "Maria Lopez",
+            "Carmen Ortiz",
+            "Arthur Burton",
+            "Rajiv Patel",
+            "Francisco Lopez",
+            "Carlos Gomez",
+            "Abigail Chen",
+            "Jennifer Moore",
+            "Ayesha Khan",
+            "Hailey Johnson",
+            "Tom Moreno",
+            "Jane Moreno"
+        ],
+        "env_name": "base_1124_public_activity_5"
+    },
+    {
+        "goal": "Hold a public lecture on philosophy at Oak Hill College:classroom at 2023-02-14 15:30",
+        "FPG": "Mei Lin wants to hold a public lecture on philosophy at Oak Hill College:classroom at 2023-02-14 15:30",
+        "Description": "The target is to have 7 people attend the public lecture on philosophy at Oak Hill College:classroom at 2023-02-14 15:30, the more people the better.",
+        "task_type": "Public Activity",
+        "task": {
+            "target": [],
+            "target_num": 8,
+            "goal": [
+                {
+                    "keyword": "lecture",
+                    "alter_kwd": [
+                        "lecture",
+                        "philosophy",
+                        "class",
+                        "seminar"
+                    ],
+                    "start_time": "2023-02-14 15:30",
+                    "duration_in_minutes": 150,
+                    "location": "Oak Hill College:classroom",
+                    "required_character": []
+                }
+            ]
+        },
+        "performer": "Mei Lin",
+        "time_choices": [
+            "2023-02-14 10:00",
+            "2023-02-14 15:30",
+            "2023-02-14 19:00"
+        ],
+        "role_requirement": [],
+        "Note": "public lecture on philosophy",
+        "n_characters": 12,
+        "all_chars": [
+            "Mei Lin",
+            "Klaus Mueller",
+            "Adam Smith",
+            "John Lin",
+            "Giorgio Rossi",
+            "Wolfgang Schulz",
+            "Carmen Ortiz",
+            "Tamara Taylor",
+            "Carlos Gomez",
+            "Hailey Johnson",
+            "Tom Moreno",
+            "Arthur Burton"
+        ],
+        "env_name": "base_1124_public_activity_6"
+    },
+    {
+        "goal": "Hold a seminar on literature on philosophy at Oak Hill College:library at 2023-02-14 15:30",
+        "FPG": "Ayesha Khan wants to hold a seminar on literature at Oak Hill College:library at 2023-02-14 15:30",
+        "Description": "The target is to have 8 people attend the seminar on literature at Oak Hill College:library at 2023-02-14 15:30, the more people the better.",
+        "task_type": "Public Activity",
+        "task": {
+            "target": [],
+            "target_num": 7,
+            "goal": [
+                {
+                    "keyword": "seminar",
+                    "alter_kwd": [
+                        "seminar",
+                        "workshop",
+                        "literature"
+                    ],
+                    "start_time": "2023-02-14 15:30",
+                    "duration_in_minutes": 150,
+                    "location": "Oak Hill College:library",
+                    "required_character": []
+                }
+            ]
+        },
+        "performer": "Ayesha Khan",
+        "time_choices": [
+            "2023-02-14 10:00",
+            "2023-02-14 15:30",
+            "2023-02-14 19:00"
+        ],
+        "role_requirement": [],
+        "Note": "seminar on literature",
+        "n_characters": 12,
+        "all_chars": [
+            "Ayesha Khan",
+            "Adam Smith",
+            "Ryan Park",
+            "John Lin",
+            "Jennifer Moore",
+            "Maria Lopez",
+            "Jane Moreno",
+            "Latoya Williams",
+            "Sam Moore",
+            "Yuriko Yamamoto",
+            "Tom Moreno",
+            "Giorgio Rossi"
+        ],
+        "env_name": "base_1124_public_activity_7"
+    },
+    {
+        "goal": "Meet Prof. Mei Lin for revising the manuscript at some time on 2023-02-14.",
+        "FPG": "Klaus Mueller wants to meet Prof. Mei Lin for revising the manuscript at some time on 2023-02-14.",
+        "Description": "The target is to be with Prof. Mei Lin in the same location and the same time and discussing about revising the manuscript",
+        "task_type": "Personal appointment",
+        "task": {
+            "target": [
+                "Mei Lin"
+            ],
+            "target_num": 2,
+            "goal": [
+                {
+                    "keyword": "revise the manuscript",
+                    "alter_kwd": [
+                        "revising",
+                        "manuscript"
+                    ],
+                    "start_time": "N/A",
+                    "duration_in_minutes": 30,
+                    "location": "N/A",
+                    "required_character": [
+                        "Mei Lin",
+                        "Klaus Mueller"
+                    ]
+                }
+            ]
+        },
+        "performer": "Klaus Mueller",
+        "performer_choices": [
+            "Klaus Mueller",
+            "Maria Lopez",
+            "Ayesha Khan"
+        ],
+        "role_requirement": [
+            "student"
+        ],
+        "Note": "Personal appointment: Prof. and OH",
+        "n_characters": 13,
+        "all_chars": [
+            "Klaus Mueller",
+            "Mei Lin",
+            "Carmen Ortiz",
+            "Latoya Williams",
+            "Rajiv Patel",
+            "Wolfgang Schulz",
+            "Hailey Johnson",
+            "Giorgio Rossi",
+            "Ayesha Khan",
+            "Yuriko Yamamoto",
+            "Eddy Lin",
+            "Tamara Taylor",
+            "Jennifer Moore"
+        ],
+        "env_name": "base_1124_personal_appointment_8"
+    },
+    {
+        "goal": "Meet Yuriko Yamamoto for consulting about personal income tax avoidance at some time on 2023-02-14.",
+        "FPG": "Ryan Park wants to meet Yuriko Yamamoto for consulting about personal income tax avoidance at some time on 2023-02-14.",
+        "Description": "The target is to be with Yuriko Yamamoto in the same location and the same time and consulting about personal income tax avoidance.",
+        "task_type": "Personal appointment",
+        "task": {
+            "target": [
+                "Yuriko Yamamoto"
+            ],
+            "target_num": 2,
+            "goal": [
+                {
+                    "keyword": "tax avoidance",
+                    "alter_kwd": [
+                        "avoiding tax",
+                        "law consulting",
+                        "consult"
+                    ],
+                    "start_time": "N/A",
+                    "duration_in_minutes": 30,
+                    "location": "N/A",
+                    "required_character": [
+                        "Yuriko Yamamoto",
+                        "Ryan Park"
+                    ]
+                }
+            ]
+        },
+        "performer": "Ryan Park",
+        "performer_choices": [
+            "Ryan Park"
+        ],
+        "role_requirement": [],
+        "Note": "Personal appointment: tax avoidance",
+        "n_characters": 11,
+        "all_chars": [
+            "Yuriko Yamamoto",
+            "Ryan Park",
+            "Maria Lopez",
+            "Ayesha Khan",
+            "Latoya Williams",
+            "Jennifer Moore",
+            "Giorgio Rossi",
+            "Eddy Lin",
+            "Jane Moreno",
+            "Tom Moreno",
+            "Wolfgang Schulz"
+        ],
+        "env_name": "base_1124_personal_appointment_9"
+    },
+    {
+        "goal": "Meet Giorgio Rossi for help on a math problem at some time on 2023-02-14.",
+        "FPG": "Maria Lopez wants to meet Giorgio Rossi for help on a math problem at some time on 2023-02-14.",
+        "Description": "The target is to be with Giorgio Rossi in the same location and the same time and ask him for help on a math problem.",
+        "task_type": "Personal appointment",
+        "task": {
+            "target": [
+                "Giorgio Rossi"
+            ],
+            "target_num": 5,
+            "goal": [
+                {
+                    "keyword": "math problem",
+                    "alter_kwd": [
+                        "math problem"
+                    ],
+                    "start_time": "N/A",
+                    "duration_in_minutes": 30,
+                    "location": "N/A",
+                    "required_character": [
+                        "Giorgio Rossi",
+                        "Maria Lopez"
+                    ]
+                }
+            ]
+        },
+        "performer": "Maria Lopez",
+        "performer_choices": [
+            "Ryan Park"
+        ],
+        "role_requirement": [],
+        "Note": "Personal appointment: math problem",
+        "n_characters": 13,
+        "all_chars": [
+            "Giorgio Rossi",
+            "Maria Lopez",
+            "Carmen Ortiz",
+            "Sam Moore",
+            "Hailey Johnson",
+            "Carlos Gomez",
+            "Jane Moreno",
+            "Latoya Williams",
+            "Arthur Burton",
+            "Rajiv Patel",
+            "Eddy Lin",
+            "Ayesha Khan",
+            "Abigail Chen"
+        ],
+        "env_name": "base_1124_personal_appointment_10"
+    },
+    {
+        "goal": "Find partners to have coffee with at Hobbs Coffee at some time on 2023-02-14.",
+        "FPG": "Eddy Lin wants to find partners to have coffee with at Hobbs Coffee at some time on 2023-02-14.",
+        "Description": "The target is to be with at least one another people at Hobbs Coffee at the same time to have coffee together.",
+        "task_type": "Find partner",
+        "task": {
+            "target": [],
+            "target_num": 5,
+            "goal": [
+                {
+                    "keyword": "coffee",
+                    "alter_kwd": [
+                        "cafe",
+                        "having coffee"
+                    ],
+                    "start_time": "N/A",
+                    "duration_in_minutes": 30,
+                    "location": "Hobbs Coffee",
+                    "required_character": [
+                        "Eddy Lin"
+                    ]
+                }
+            ]
+        },
+        "performer": "Eddy Lin",
+        "performer_choices": [
+            "#Any"
+        ],
+        "role_requirement": [],
+        "Note": "Find partner: have coffee",
+        "n_characters": 12,
+        "all_chars": [
+            "Eddy Lin",
+            "Adam Smith",
+            "Giorgio Rossi",
+            "Mei Lin",
+            "Arthur Burton",
+            "Jane Moreno",
+            "Isabella Rodriguez",
+            "Latoya Williams",
+            "Tamara Taylor",
+            "Hailey Johnson",
+            "Klaus Mueller",
+            "Yuriko Yamamoto"
+        ],
+        "env_name": "base_1124_find_partner_11"
+    },
+    {
+        "goal": "Find partners to go shop with at The Willows Market and Pharmacy at some time on 2023-02-14.",
+        "FPG": "Eddy Lin wants to find partners to go shop with at The Willows Market and Pharmacy at some time on 2023-02-14.",
+        "Description": "The target is to be with at least one another people at The Willows Market and Pharmacy at the same time to shop together.",
+        "task_type": "Find partner",
+        "task": {
+            "target": [],
+            "target_num": 5,
+            "goal": [
+                {
+                    "keyword": "shop",
+                    "alter_kwd": [
+                        "shopping"
+                    ],
+                    "start_time": "N/A",
+                    "duration_in_minutes": 30,
+                    "location": "The Willows Market and Pharmacy",
+                    "required_character": [
+                        "Eddy Lin"
+                    ]
+                }
+            ]
+        },
+        "performer": "Eddy Lin",
+        "performer_choices": [
+            "#Any"
+        ],
+        "role_requirement": [],
+        "Note": "Find partner: go shop",
+        "n_characters": 13,
+        "all_chars": [
+            "Eddy Lin",
+            "Klaus Mueller",
+            "Francisco Lopez",
+            "Ayesha Khan",
+            "John Lin",
+            "Wolfgang Schulz",
+            "Latoya Williams",
+            "Mei Lin",
+            "Giorgio Rossi",
+            "Jennifer Moore",
+            "Ryan Park",
+            "Yuriko Yamamoto",
+            "Tom Moreno"
+        ],
+        "env_name": "base_1124_find_partner_12"
+    },
+    {
+        "goal": "Find partners to exercise with at Johnson Park at some time on 2023-02-14.",
+        "FPG": "Wolfgang Schulz wants to find partners to exercise with at Johnson Park at some time on 2023-02-14.",
+        "Description": "The target is to be with at least one another people at Johnson Park at the same time to shop together.",
+        "task_type": "Find partner",
+        "task": {
+            "target": [],
+            "target_num": 5,
+            "goal": [
+                {
+                    "keyword": "exercise",
+                    "alter_kwd": [
+                        "exercise",
+                        "workout"
+                    ],
+                    "start_time": "N/A",
+                    "duration_in_minutes": 30,
+                    "location": "Johnson Park",
+                    "required_character": [
+                        "Wolfgang Schulz"
+                    ]
+                }
+            ]
+        },
+        "performer": "Wolfgang Schulz",
+        "performer_choices": [
+            "#Any"
+        ],
+        "role_requirement": [],
+        "Note": "Find partner: exercise",
+        "n_characters": 13,
+        "all_chars": [
+            "Wolfgang Schulz",
+            "Tom Moreno",
+            "John Lin",
+            "Carmen Ortiz",
+            "Rajiv Patel",
+            "Eddy Lin",
+            "Hailey Johnson",
+            "Adam Smith",
+            "Jane Moreno",
+            "Carlos Gomez",
+            "Francisco Lopez",
+            "Jennifer Moore",
+            "Giorgio Rossi"
+        ],
+        "env_name": "base_1124_find_partner_13"
+    },
+    {
+        "goal": "Find some partners to play League of Agents (an online game) with at 2023-02-14 20:30",
+        "FPG": "Maria Lopez wants to find some partners to play League of Agents (an online game) with at 2023-02-14 20:30.",
+        "Description": "The target is to play League of Agents (an online game) with another 6 people at 2023-02-14 20:30 together, the more people the better.",
+        "task_type": "Online meeting",
+        "task": {
+            "target": [],
+            "target_num": 7,
+            "goal": [
+                {
+                    "keyword": "game",
+                    "alter_kwd": [
+                        "online game",
+                        "League of Agents"
+                    ],
+                    "start_time": "2023-02-14 20:30",
+                    "duration_in_minutes": 150,
+                    "location": "N/A",
+                    "required_character": [
+                        "Maria Lopez"
+                    ]
+                }
+            ]
+        },
+        "performer": "Maria Lopez",
+        "performer_choices": [
+            "#Any"
+        ],
+        "role_requirement": [],
+        "Note": "Online meeting: gaming",
+        "n_characters": 12,
+        "all_chars": [
+            "Maria Lopez",
+            "Isabella Rodriguez",
+            "Carlos Gomez",
+            "Wolfgang Schulz",
+            "Adam Smith",
+            "Sam Moore",
+            "Carmen Ortiz",
+            "Tom Moreno",
+            "Arthur Burton",
+            "Yuriko Yamamoto",
+            "Mei Lin",
+            "Abigail Chen"
+        ],
+        "env_name": "base_1124_online_meeting_14"
+    },
+    {
+        "goal": "Find some audience for an online generative agent workshop at 2023-02-14 15:30",
+        "FPG": "Mei Lin wants to find some audience for an online generative agent workshop at 2023-02-14 15:30.",
+        "Description": "The target is to hold an online workshop of generative agent with at least 6 audience at 2023-02-14 15:30, the more audience the better.",
+        "task_type": "Online meeting",
+        "task": {
+            "target": [],
+            "target_num": 7,
+            "goal": [
+                {
+                    "keyword": "workshop",
+                    "alter_kwd": [
+                        "meeting",
+                        "generative agent"
+                    ],
+                    "start_time": "2023-02-14 15:30",
+                    "duration_in_minutes": 150,
+                    "location": "N/A",
+                    "required_character": [
+                        "Mei Lin"
+                    ]
+                }
+            ]
+        },
+        "performer": "Mei Lin",
+        "performer_choices": [
+            "#Any"
+        ],
+        "role_requirement": [],
+        "Note": "Online meeting: workshop",
+        "n_characters": 13,
+        "all_chars": [
+            "Mei Lin",
+            "Tom Moreno",
+            "Adam Smith",
+            "Tamara Taylor",
+            "Arthur Burton",
+            "Carlos Gomez",
+            "Eddy Lin",
+            "Wolfgang Schulz",
+            "John Lin",
+            "Jennifer Moore",
+            "Jane Moreno",
+            "Carmen Ortiz",
+            "Ayesha Khan"
+        ],
+        "env_name": "base_1124_online_meeting_15"
+    },
+    {
+        "goal": "Invite some friends for watching movies together online at 2023-02-14 20:30",
+        "FPG": "Wolfgang Schulz wants to invite some friends for watching movies together online at 2023-02-14 20:30.",
+        "Description": "The target is to have at least 6 friends watching movies together online at 2023-02-14 20:30, the more friends the better.",
+        "task_type": "Online meeting",
+        "task": {
+            "target": [],
+            "target_num": 7,
+            "goal": [
+                {
+                    "keyword": "workshop",
+                    "alter_kwd": [
+                        "meeting",
+                        "generative agent"
+                    ],
+                    "start_time": "2023-02-14 20:30",
+                    "duration_in_minutes": 150,
+                    "location": "N/A",
+                    "required_character": [
+                        "Wolfgang Schulz"
+                    ]
+                }
+            ]
+        },
+        "performer": "Wolfgang Schulz",
+        "performer_choices": [
+            "#Any"
+        ],
+        "role_requirement": [],
+        "Note": "Online meeting: watching movies",
+        "n_characters": 13,
+        "all_chars": [
+            "Wolfgang Schulz",
+            "Jennifer Moore",
+            "Giorgio Rossi",
+            "Mei Lin",
+            "Sam Moore",
+            "Hailey Johnson",
+            "John Lin",
+            "Isabella Rodriguez",
+            "Carlos Gomez",
+            "Arthur Burton",
+            "Yuriko Yamamoto",
+            "Maria Lopez",
+            "Rajiv Patel"
+        ],
+        "env_name": "base_1124_online_meeting_16"
+    },
+    {
+        "goal": "You do not feel well, so you want someone else to buy you some medicine on 2023-02-14",
+        "FPG": "Jennifer Moore does not feel well, so he/she wants someone else to buy him/her some medicine on 2023-02-14.",
+        "Description": "The target is to have someone else (other than Jennifer Moore) to buy medicine at The Willows Market and Pharmacy and then send it to Moore family's house on 2023-02-14.",
+        "task_type": "Ask for others",
+        "task": {
+            "target": [],
+            "target_num": 1,
+            "goal": [
+                {
+                    "keyword": "buy medicine",
+                    "alter_kwd": [
+                        "medicine",
+                        "pills"
+                    ],
+                    "start_time": "N/A",
+                    "duration_in_minutes": 5,
+                    "location": "The Willows Market and Pharmacy",
+                    "required_character": []
+                },
+                {
+                    "keyword": "deliver medicine",
+                    "alter_kwd": [
+                        "medicine",
+                        "pills"
+                    ],
+                    "start_time": "N/A",
+                    "duration_in_minutes": 5,
+                    "location": "Moore family's house",
+                    "required_character": []
+                }
+            ]
+        },
+        "performer": "Jennifer Moore",
+        "performer_choices": [
+            "#Any"
+        ],
+        "role_requirement": [],
+        "Note": "Ask for others: medicine",
+        "n_characters": 12,
+        "all_chars": [
+            "Jennifer Moore",
+            "John Lin",
+            "Ryan Park",
+            "Giorgio Rossi",
+            "Mei Lin",
+            "Ayesha Khan",
+            "Yuriko Yamamoto",
+            "Tom Moreno",
+            "Eddy Lin",
+            "Hailey Johnson",
+            "Jane Moreno",
+            "Klaus Mueller"
+        ],
+        "env_name": "base_1124_ask_for_others_17"
+    },
+    {
+        "goal": "You are busy with an exam, so you want someone else to buy you a cup of coffee",
+        "FPG": "Ayesha Khan is busy with an exam, so Ayesha Khan want someone else to buy him/her a cup of coffee on 2023-02-14.",
+        "Description": "The target is to have someone else (other than Ayesha Khan) to buy a cup of coffee at Hobbs coffee and then send it to Dorm for Oak Hill College on 2023-02-14.",
+        "task_type": "Ask for others",
+        "task": {
+            "target": [],
+            "target_num": 1,
+            "goal": [
+                {
+                    "keyword": "buy coffee",
+                    "alter_kwd": [
+                        "coffee"
+                    ],
+                    "start_time": "N/A",
+                    "duration_in_minutes": 5,
+                    "location": "Hobbs coffee",
+                    "required_character": []
+                },
+                {
+                    "keyword": "deliver coffee",
+                    "alter_kwd": [
+                        "coffee"
+                    ],
+                    "start_time": "N/A",
+                    "duration_in_minutes": 5,
+                    "location": "Dorm for Oak Hill College",
+                    "required_character": []
+                }
+            ]
+        },
+        "performer": "Ayesha Khan",
+        "performer_choices": [
+            "#Any"
+        ],
+        "role_requirement": [],
+        "Note": "Ask for others: coffee",
+        "n_characters": 13,
+        "all_chars": [
+            "Ayesha Khan",
+            "John Lin",
+            "Adam Smith",
+            "Jennifer Moore",
+            "Latoya Williams",
+            "Giorgio Rossi",
+            "Maria Lopez",
+            "Eddy Lin",
+            "Yuriko Yamamoto",
+            "Isabella Rodriguez",
+            "Abigail Chen",
+            "Wolfgang Schulz",
+            "Sam Moore"
+        ],
+        "env_name": "base_1124_ask_for_others_18"
+    },
+    {
+        "goal": "You are busy with a chemistry experiment, you want someone else to borrow literatures from the library of Oak Hill College and bring it to you.",
+        "FPG": "Wolfgang Schulz is busy with a chemistry experiment, so Wolfgang Schulz wants someone else to borrow literatures from the library of Oak Hill College and bring it to him on 2023-02-14.",
+        "Description": "The target is to have someone else (other than Wolfgang Schulz) to borrow literatures at Oak Hill College:library and then send it to Dorm for Oak Hill College on 2023-02-14.",
+        "task_type": "Ask for others",
+        "task": {
+            "target": [],
+            "target_num": 1,
+            "goal": [
+                {
+                    "keyword": "literature",
+                    "alter_kwd": [
+                        "literature",
+                        "literatures",
+                        "chemistry"
+                    ],
+                    "start_time": "N/A",
+                    "duration_in_minutes": 5,
+                    "location": "Oak Hill College:library",
+                    "required_character": []
+                },
+                {
+                    "keyword": "deliver literature",
+                    "alter_kwd": [
+                        "literature",
+                        "literatures",
+                        "chemistry"
+                    ],
+                    "start_time": "N/A",
+                    "duration_in_minutes": 5,
+                    "location": "Dorm for Oak Hill College",
+                    "required_character": []
+                }
+            ]
+        },
+        "performer": "Wolfgang Schulz",
+        "performer_choices": [
+            "#Any"
+        ],
+        "role_requirement": [],
+        "Note": "Ask for others: borrow books from library",
+        "n_characters": 12,
+        "all_chars": [
+            "Wolfgang Schulz",
+            "Hailey Johnson",
+            "John Lin",
+            "Tamara Taylor",
+            "Latoya Williams",
+            "Carmen Ortiz",
+            "Jennifer Moore",
+            "Sam Moore",
+            "Ryan Park",
+            "Yuriko Yamamoto",
+            "Mei Lin",
+            "Maria Lopez"
+        ],
+        "env_name": "base_1124_ask_for_others_19"
+    }
+]

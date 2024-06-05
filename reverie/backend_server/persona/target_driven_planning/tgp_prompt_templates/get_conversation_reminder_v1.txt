@@ -1,0 +1,26 @@
+get_conversation_reminder_v1.txt
+
+Variables: 
+!<INPUT 0>! -- Persona name
+!<INPUT 1>! -- Persona description
+!<INPUT 2>! -- Task description
+!<INPUT 3>! -- General plan
+
+<commentblockmarker>###</commentblockmarker>
+Suppose you are !<INPUT 0>!, your information is:
+!<INPUT 1>!
+
+You play a character in a game, where you can move in a ville and converse with others by natural language instructions.
+
+Now you will perform a task, which has the information as follows:
+!<INPUT 2>!
+
+To perform the task, you will draw up the plan and execute it step by step. Your plan should focus on how to achieve higher score in the task, which suggests you to carefully consider the goal and criteria.
+You have decomposed the task into few keypoints or subgoals:
+!<INPUT 3>!
+
+Here comes the next step of planning. When you are talking to others, what should you keep in mind to accomplish the goal?
+Make a checklist with less than 5 items, one per line, without any prefix or postfix.
+
+Checklist:
+

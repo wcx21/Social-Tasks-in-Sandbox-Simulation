@@ -1,0 +1,104 @@
+[
+  {
+    "goal": "#performer needs to restock the bar inventory but is currently managing a large event, so #performer wants someone to pick up the inventory from The Willows Market and Pharmacy and then deliver it to The Rose and Crown Pub on 2023-02-14.",
+    "FPG": "#performer needs to restock the bar inventory but is currently managing a large event, so #performer wants someone to pick up the inventory from The Willows Market and Pharmacy and then deliver it to The Rose and Crown Pub on 2023-02-14.",
+    "Description": "The target is to have someone else (other than #performer) to pick up the inventory at #location_0 and then deliver it to #location_1 on 2023-02-14.",
+    "task_type": "Ask for others",
+    
+    "task": {
+      "target": [],
+      "target_num": 1,
+      "goal": [
+        {
+          "keyword": "restock the bar inventory",
+          "alter_kwd": ["restock", "bar inventory"],
+          "start_time": "N/A",
+          "duration_in_minutes": 5,
+          "location": "The Willows Market and Pharmacy",
+          "required_character": []
+        },
+        {
+          "keyword": "deliver the bar inventory",
+          "alter_kwd": ["deliver", "bar inventory"],
+          "start_time": "N/A",
+          "duration_in_minutes": 5,
+          "location": "The Rose and Crown Pub",
+          "required_character": []
+        }
+      ]
+    },
+    "shared_spatial_mem": {
+    },
+    "performer": "Arthur Burton"
+  },
+  {
+    "goal": "#performer is on a tight deadline for an animation project and needs someone to pick up her ordered art supplies from Harvey Oak Supply Store and deliver them to her studio at artist's co-living space on 2023-02-14.",
+    "FPG": "#performer is on a tight deadline for an animation project and needs someone to pick up her ordered art supplies from Harvey Oak Supply Store and deliver them to her studio at artist's co-living space on 2023-02-14.",
+    "Description": "The target is to have someone else (other than #performer) to pick up the ordered art supplies at #location_0 and then deliver them to #location_1 on 2023-02-14.",
+    "task_type": "Ask for others",
+    
+    "task": {
+      "target": [],
+      "target_num": 1,
+      "goal": [
+        {
+          "keyword": "pick up art supplies",
+          "alter_kwd": ["pick up", "art supplies"],
+          "start_time": "N/A",
+          "duration_in_minutes": 5,
+          "location": "Harvey Oak Supply Store",
+          "required_character": []
+        },
+        {
+          "keyword": "deliver supplies to studio",
+          "alter_kwd": ["deliver", "art supplies"],
+          "start_time": "N/A",
+          "duration_in_minutes": 5,
+          "location": "artist's co-living space",
+          "required_character": []
+        }
+      ]
+    },
+    "shared_spatial_mem": {
+      "artist's co-living space": {
+        "common room": [
+          "common room table",
+          "common room sofa"
+        ]
+      }
+    },
+    "performer": "Abigail Chen"
+  },
+  {
+    "goal": "#performer wants to introduce a new coffee blend at Hobbs Caffe but is short on staff. She requires someone to buy Arabica coffee beans at Harvey Oak Supply Store and deliver them to Hobbs Caffe on 2023-02-14.",
+    "FPG": "#performer wants to introduce a new coffee blend at Hobbs Caffe but is short on staff. She requires someone to buy Arabica coffee beans at Harvey Oak Supply Store and deliver them to Hobbs Caffe on 2023-02-14.",
+    "Description": "The target is to have someone else (other than #performer) to buy Arabica coffee beans at #location_0 and then deliver them to #location_1 on 2023-02-14.",
+    "task_type": "Ask for others",
+    
+    "task": {
+      "target": [],
+      "target_num": 1,
+      "goal": [
+        {
+          "keyword": "buy Arabica coffee beans",
+          "alter_kwd": ["buy coffee beans", "Arabica coffee beans"],
+          "start_time": "N/A",
+          "duration_in_minutes": 5,
+          "location": "Harvey Oak Supply Store",
+          "required_character": []
+        },
+        {
+          "keyword": "deliver coffee beans",
+          "alter_kwd": ["deliver", "coffee beans"],
+          "start_time": "N/A",
+          "duration_in_minutes": 5,
+          "location": "Hobbs Caffe",
+          "required_character": []
+        }
+      ]
+    },
+    "shared_spatial_mem": {
+    },
+    "performer": "Isabella Rodriguez"
+  }
+]

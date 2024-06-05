@@ -1,0 +1,34 @@
+eval_conversation_v1.txt
+
+Variables: 
+!<INPUT 0>! -- Main Persona
+!<INPUT 1>! -- Background Persona
+!<INPUT 2>! -- Summary content
+!<INPUT 3>! -- Activity name 1
+!<INPUT 4>! -- Activity location 1
+!<INPUT 5>! -- Activity name 2
+!<INPUT 6>! -- Activity location 2
+
+<commentblockmarker>###</commentblockmarker>
+Here is a summary of a conversation:
+
+<summary>
+!<INPUT 2>!
+</summary>
+
+Today is Monday 2023-02-13, tomorrow is Tuesday 2023-02-14.
+
+Given the information above, please judge the following issues:
+1. Does the summary shows that someone was asked for "!<INPUT 3>!"? (Please only answer "Yes" or "No")
+2. Does the summary shows that exact location to perform "!<INPUT 3>!" (which should be !<INPUT 4>!)? (Please only answer "Yes" or "No")
+3. Does the summary shows that someone was asked for "!<INPUT 5>!"? (Please only answer "Yes" or "No")
+4. Does the summary shows that exact location to perform "!<INPUT 5>!" (which should be !<INPUT 6>!)? (Please only answer "Yes" or "No")
+
+The output should be in the following format:
+1. <fill in>
+2. <fill in>
+3. <fill in>
+4. <fill in>
+
+Output:
+

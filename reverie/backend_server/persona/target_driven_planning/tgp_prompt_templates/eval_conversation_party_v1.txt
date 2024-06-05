@@ -1,0 +1,37 @@
+eval_conversation_v1.txt
+
+Variables: 
+!<INPUT 0>! -- Main Persona
+!<INPUT 1>! -- Background Persona
+!<INPUT 2>! -- Conversation content
+!<INPUT 3>! -- Activity name
+!<INPUT 4>! -- Activity datetime
+!<INPUT 5>! -- Activity location
+
+<commentblockmarker>###</commentblockmarker>
+Here is a conversation between !<INPUT 0>! and !<INPUT 1>!.
+
+<conversation>
+!<INPUT 2>!
+</conversation>
+
+Today is Monday 2023-02-13, tomorrow is Tuesday 2023-02-14.
+
+Given the information above, please judge the following issues:
+1. According to the conversation above, does !<INPUT 0>! successfully invited !<INPUT 1>! to the !<INPUT 3>! ? (Please only answer "Yes" or "No")
+2. According to the conversation above, does !<INPUT 0>! clearly inform the exact date and time of the !<INPUT 3>! (which should be !<INPUT 4>!)? (Please only answer "Yes" or "No")
+3. According to the conversation above, does !<INPUT 0>! clearly inform the exact location of the !<INPUT 3>! (which should be !<INPUT 5>!)? (Please only answer "Yes" or "No")
+4. Measure the naturalness of !<INPUT 0>!'s speaking. (Give a score from 0 to 10)
+5. Measure the rationality of !<INPUT 0>!'s speaking. (Give a score from 0 to 10)
+6. Measure the overall quality of !<INPUT 0>!'s speaking. (Give a score from 0 to 10)
+
+The output should be in the following format:
+1. <fill in>
+2. <fill in>
+3. <fill in>
+4. <fill in>
+5. <fill in>
+6. <fill in>
+
+Output:
+

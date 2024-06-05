@@ -1,0 +1,12 @@
+summarize_conversation_v1.txt
+
+Variables: 
+!<INPUT 0>! -- init_persona_name
+
+<commentblockmarker>###</commentblockmarker>
+Conversation: 
+!<INPUT 0>!
+
+Summarize the conversation above in exactly two sentences. Summarize the topic and key information in the first sentence, and describe the conversation as an event in the second sentence.
+Reference format:
+This is a conversation about <fill in>. <fill in>.

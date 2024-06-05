@@ -1,0 +1,68 @@
+[
+   {
+    "goal": "Find partners for playing math puzzles and games with at #location_0 at some time on 2023-02-14.",
+    "FPG": "#performer wants to find partners for playing math puzzles and games with at #location_0 at some time on 2023-02-14.",
+    "Description": "The target is to be with other people at #location_0 at the same time for playing math puzzles and games together.",
+    "task_type": "Find partner",
+    
+    "task": {
+      "target": [],
+      "target_num": 5,
+      "goal": [
+        {
+          "keyword": "playing math puzzles and games",
+          "alter_kwd": ["math puzzles", "math games"],
+          "start_time": "N/A",
+          "duration_in_minutes": 30,
+          "location": "Oak Hill College",
+          "required_character": ["Giorgio Rossi"]
+        }
+      ]
+    },
+    "performer": "Giorgio Rossi"
+  },
+  {
+    "goal": "Find partners for playing board games with at #location_0 at some time on 2023-02-14.",
+    "FPG": "#performer wants to find partners for playing board games at #location_0 at some time on 2023-02-14.",
+    "Description": "The target is to be with other people at #location_0 at the same time for playing board games together.",
+    "task_type": "Find partner",
+    
+    "task": {
+      "target": [],
+      "target_num": 5,
+      "goal": [
+        {
+          "keyword": "playing board games",
+          "alter_kwd": ["board games", "playing games"],
+          "start_time": "N/A",
+          "duration_in_minutes": 30,
+          "location": "Hobbs Coffee",
+          "required_character": ["Maria Lopez"]
+        }
+      ]
+    },
+    "performer": "Maria Lopez"
+  },
+  {
+    "goal": "Find partners for running together at #location_0 at some time on 2023-02-14.",
+    "FPG": "#performer wants to find partners for running together at #location_0 at some time on 2023-02-14.",
+    "Description": "The target is to be with other people at #location_0 at the same time for running together.",
+    "task_type": "Find partner",
+    
+    "task": {
+      "target": [],
+      "target_num": 5,
+      "goal": [
+        {
+          "keyword": "running",
+          "alter_kwd": ["running", "run"],
+          "start_time": "N/A",
+          "duration_in_minutes": 30,
+          "location": "Oak Hill College",
+          "required_character": ["Wolfgang Schulz"]
+        }
+      ]
+    },
+    "performer": "Wolfgang Schulz"
+  }
+]

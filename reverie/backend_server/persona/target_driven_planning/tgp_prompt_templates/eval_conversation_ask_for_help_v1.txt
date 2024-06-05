@@ -1,0 +1,38 @@
+eval_conversation_v1.txt
+
+Variables: 
+!<INPUT 0>! -- Main Persona
+!<INPUT 1>! -- Background Persona
+!<INPUT 2>! -- Conversation content
+!<INPUT 3>! -- Activity name 1
+!<INPUT 4>! -- Activity location 1
+!<INPUT 5>! -- Activity name 2
+!<INPUT 6>! -- Activity location 2
+
+<commentblockmarker>###</commentblockmarker>
+Here is a conversation between !<INPUT 0>! and !<INPUT 1>!.
+
+<conversation>
+!<INPUT 2>!
+</conversation>
+
+Given the information above, please judge the following issues:
+1. According to the conversation above, does !<INPUT 0>! make clear request about "!<INPUT 3>!" to !<INPUT 1>!? (Please only answer "Yes" or "No")
+2. According to the conversation above, does !<INPUT 0>! clearly inform the exact location to perform "!<INPUT 3>!" (which should be !<INPUT 4>!)? (Please only answer "Yes" or "No")
+3. According to the conversation above, does !<INPUT 0>! make clear request about "!<INPUT 5>!" to !<INPUT 1>!? (Please only answer "Yes" or "No")
+4. According to the conversation above, does !<INPUT 0>! clearly inform the exact location to perform "!<INPUT 5>!" (which should be !<INPUT 6>!)? (Please only answer "Yes" or "No")
+5. Measure the naturalness of !<INPUT 0>!'s speaking. (Give a score from 0 to 10)
+6. Measure the rationality of !<INPUT 0>!'s speaking. (Give a score from 0 to 10)
+7. Measure the overall quality of !<INPUT 0>!'s speaking. (Give a score from 0 to 10)
+
+The output should be in the following format:
+1. <fill in>
+2. <fill in>
+3. <fill in>
+4. <fill in>
+5. <fill in>
+6. <fill in>
+7. <fill in>
+
+Output:
+
