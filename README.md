@@ -8,7 +8,7 @@ Our code is built on the [Generative Agents](https://github.com/joonspk-research
 2. We suggest installing Selenium for effectively run the code effectively on headless servers. We use Chrome driver, though others may also work.
 3. Some of our data are zipped in [base_0209.zip](environment%2Ffrontend_server%2Fstorage%2Fbase_0209.zip) and [base_1124.zip](environment%2Ffrontend_server%2Fstorage%2Fbase_1124.zip), unzip them if you want to run our designed tasks at [task_0905](environment%2Fdata%2Ftask_0905).
 
-**Note: We made some modification on the code of generative agents, the behaviors of some code may be different from the original version.**
+**Note: We made some modifications on the code of generative agents, the behaviors of some code may be different from the original version.**
 
 ## Run simulation with social tasks
 The entrance is [reverie_with_task.py](reverie%2Fbackend_server%2Freverie_with_task.py). By default, we enable the tdp module. It can be disabled by using '--naive'.
@@ -28,7 +28,7 @@ After that, the simulation can be evaluated with [post_run_eval_v3.py](environme
 ```shell
 python post_run_eval_v3.py --sim_root ./frontend_server/eval/gpt4-tdp-2
 ```
-Where the *sim_root* is a folder contains multiple simulations.
+Where the *sim_root* is a folder containing multiple simulations.
 
 
 ### Language-level evaluation 
@@ -43,7 +43,7 @@ python offline_eval/eval_main.py -p ./data/offline_eval_full -s ./data/results -
 Reproducing our results may need hundreds of simulation runs, thus we suggest running the experiments in parallel. 
 Our solution is to run experiments in multiple docker containers, and use a separate process to simulate the behavior of the web explorer.
 
-In our practice, we start 3 separate process in each container:
+In our practice, we start 3 separate processes in each container:
 ```shell
 python manage.py runserver
 ```
@@ -59,12 +59,13 @@ python selenium_proc.py
 The script for collecting results from multiple docker containers depends on the specified environment. Generally, we use something like [collect_l2.py](reverie%2Fbackend_server%2Fcollect_l2.py)
 
 ## Reference
-If you use our code, please consider cite our paper:
+If you use our code, please consider citing our paper:
 ```bibtex
-@article{wang2024towards,
+@inproceedings{wang2024towards,
   title={Towards Objectively Benchmarking Social Intelligence for Language Agents at Action Level},
   author={Wang, Chenxu and Dai, Bin and Liu, Huaping and Wang, Baoyuan},
-  journal={arXiv preprint arXiv:2404.05337},
+  booktitle={Findings of the Association for Computational Linguistics: ACL 2024},
+  pages = "8885--8897",
   year={2024}
 ```
 
