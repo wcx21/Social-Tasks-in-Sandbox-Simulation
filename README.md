@@ -67,6 +67,7 @@ If you use our code, please consider citing our paper:
   booktitle={Findings of the Association for Computational Linguistics: ACL 2024},
   pages = "8885--8897",
   year={2024}
+}
 ```
 
 Some code and data are from [Generative Agents](https://github.com/joonspk-research/generative_agents "Generative Agents"):
