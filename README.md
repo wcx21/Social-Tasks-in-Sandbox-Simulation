@@ -65,13 +65,13 @@ If you use our code, please consider citing our paper:
   title={Towards Objectively Benchmarking Social Intelligence for Language Agents at Action Level},
   author={Wang, Chenxu and Dai, Bin and Liu, Huaping and Wang, Baoyuan},
   booktitle={Findings of the Association for Computational Linguistics: ACL 2024},
-  pages = "8885--8897",
+  pages={8885--8897},
   year={2024}
 }
 ```
 
 Some code and data are from [Generative Agents](https://github.com/joonspk-research/generative_agents "Generative Agents"):
-```
+```bibtex
 @inproceedings{Park2023GenerativeAgents,  
 author = {Park, Joon Sung and O'Brien, Joseph C. and Cai, Carrie J. and Morris, Meredith Ringel and Liang, Percy and Bernstein, Michael S.},  
 title = {Generative Agents: Interactive Simulacra of Human Behavior},  
